@@ -1,0 +1,12 @@
+package com.Training.JavaProjectBackend.Repository;
+
+import com.Training.JavaProjectBackend.Models.Cart;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+@Repository
+public interface CartRepository extends JpaRepository<Cart,Long> {
+
+
+}
